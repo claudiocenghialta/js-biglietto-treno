@@ -11,7 +11,7 @@ if (eta < 18) {
     sconto = 40;
 }
 prezzo -= 0.21 * sconto / 100;
-if (sconto = 0) {
+if (sconto == 0) {
     comunicazione = 'avendo ' + eta + ' anni, non hai diritto ad alcuno sconto, il tuo prezzo è ' + prezzo;
     } else {
         comunicazione = 'avendo ' + eta + ' anni, ti è stato applicato uno sconto del ' + sconto + '%, il tuo prezzo è ' + prezzo;
