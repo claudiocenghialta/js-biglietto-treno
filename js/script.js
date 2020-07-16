@@ -6,9 +6,9 @@ document.getElementById('genera').addEventListener('click', function () {
     var nomeCognome = document.getElementById('nome-cognome').value
     var km = parseInt(document.getElementById('km').value);    
     var eta = document.getElementById('eta').value;  
-    // while (nomeCognome==''||nomeCognome.length<2||km<=0||eta=='--Seleziona un opzione--') {
-    //     alert('controlla i dati inseriti')
-    // }
+    while (nomeCognome==''||nomeCognome.length<2||km<=0||eta=='--Seleziona un opzione--') {
+        alert('controlla i dati inseriti')
+    }
 
     //visualizzo il biglietto
     var biglietto = document.getElementById('biglietto');
