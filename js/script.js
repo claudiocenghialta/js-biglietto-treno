@@ -1,5 +1,5 @@
-var eta = parseInt(prompt('inserisci la tua età'));
-var km = parseInt(prompt('Inserisci i km che vuoi percorrere'));
+// var eta = parseInt(prompt('inserisci la tua età'));
+// var km = parseInt(prompt('Inserisci i km che vuoi percorrere'));
 var prezzo = 0.21;
 var comunicazione;
 var sconto = 0;
