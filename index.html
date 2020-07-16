@@ -17,7 +17,7 @@
                 </div>
                 <div class="box-top-dati">
                     <label>Km da percorrere</label>
-                    <input id="nome-cognome" type="number">
+                    <input id="km" type="number">
                 </div>
                 <div class="box-top-dati">
                     <label>Fascia d'età</label>
@@ -30,12 +30,12 @@
                 </div>
             </div>
             <div class="box-bottom">
-                <button type="submit">Genera</button>
-                <button type="reset">Annulla</button>
+                <button type="button" id="genera">Genera</button>
+                <button type="button" id="annulla">Annulla</button>
             </div>
         </form>
         <h2>Il tuo biglietto</h2>
-        <div id="biglietto" class="box ">
+        <div id="biglietto" class="box hidden">
             <h3>DETTAGLIO PASSEGGERI</h3>
             <table>
                 <thead>
@@ -49,11 +49,11 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="tb-grey">Pippo</td>
-                        <td>Sconto Minorenne</td>
-                        <td>7</td>
-                        <td>97928</td>
-                        <td>3.36 €</td>
+                        <td id="td-name" class="tb-grey">Pippo</td>
+                        <td id="td-sconto" >Sconto Minorenne</td>
+                        <td id="td-carrozza" >7</td>
+                        <td id="td-codTreno" >97928</td>
+                        <td id="td-costo" >3.36 €</td>
                     </tr>
                 </tbody>    
             </table>

@@ -57,7 +57,14 @@ h1, h2 {
     padding: 3px 8px;
     font-size: inherit;
 }
-
+.hidden {
+    opacity: 0%;
+    transition: 0.3s;
+}
+.visible {
+    opacity: 100%;
+    transition: 0.3s;
+}
 table {
     border: 1px solid grey;
 }
