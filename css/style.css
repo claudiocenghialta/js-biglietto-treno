@@ -18,6 +18,7 @@ h1, h2 {
 }
 .container {
     width: 90%;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 0 50px;
 }
