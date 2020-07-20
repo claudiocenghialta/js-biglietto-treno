@@ -12,13 +12,13 @@ if (eta < 18) {
 }
 prezzo -= 0.21 * sconto / 100;
 if (sconto == 0) {
-    comunicazione = 'avendo ' + eta + ' anni, non hai diritto ad alcuno sconto, il tuo prezzo è ' + prezzo;
+    comunicazione = 'avendo ' + eta + ' anni, non hai diritto ad alcuno sconto, il tuo prezzo è ' + prezzo.toFixed(2);
     } else {
-        comunicazione = 'avendo ' + eta + ' anni, ti è stato applicato uno sconto del ' + sconto + '%, il tuo prezzo è ' + prezzo;
+        comunicazione = 'avendo ' + eta + ' anni, ti è stato applicato uno sconto del ' + sconto + '%, il tuo prezzo è ' + prezzo.toFixed(2);
     }  
 totale = prezzo * km;
 
 document.getElementById('comunicazione').innerHTML = comunicazione;
 document.getElementById('km').innerHTML = km + ' km *';
-document.getElementById('prezzo').innerHTML = prezzo + ' €/km =';
-document.getElementById('totale').innerHTML = totale + '€ di spesa per il viaggio';
+document.getElementById('prezzo').innerHTML = prezzo.toFixed(2) + ' €/km =';
+document.getElementById('totale').innerHTML = totale.toFixed(2) + '€ di spesa per il viaggio';
