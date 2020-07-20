@@ -18,6 +18,7 @@ h1, h2 {
 }
 .container {
     width: 90%;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px 0 50px;
 }
@@ -57,7 +58,14 @@ h1, h2 {
     padding: 3px 8px;
     font-size: inherit;
 }
-
+.hidden {
+    opacity: 0%;
+    transition: 0.3s;
+}
+.visible {
+    opacity: 100%;
+    transition: 0.3s;
+}
 table {
     border: 1px solid grey;
 }
